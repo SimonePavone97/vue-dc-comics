@@ -6,6 +6,7 @@
 
     <main>
       <BarraNera/>
+      <DigitalComp/>
     </main>
 
 
@@ -15,6 +16,8 @@
 <script> 
 import NavComp from './components/NavComp.vue'
 import BarraNera from './components/BarraNera.vue'
+import DigitalComp from './components/DigitalComp.vue'
+
 
 
 
@@ -22,7 +25,8 @@ export default {
   name: 'App',
   components: {
     NavComp,
-    BarraNera
+    BarraNera,
+    DigitalComp
   }
 }
 </script>
