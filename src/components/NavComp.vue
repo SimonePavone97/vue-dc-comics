@@ -1,6 +1,6 @@
 <template>
   <div class="centro">
-    <img src="/img/dc-logo.png" alt="LogoDC">
+    <img src="/img/dc-logo.png" alt="">
     <ul>
       <li> 
         <a href="#">Characters</a>  
@@ -48,7 +48,7 @@ export default {
 @import '../style/variabili.scss';
 
 .centro{
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-around;

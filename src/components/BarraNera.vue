@@ -18,7 +18,7 @@ export default {
 
 .nero{
   background: black;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 h1{

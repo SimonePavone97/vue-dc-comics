@@ -8,22 +8,22 @@
 
           <li>
              <img src="/img/buy-comics-merchandise.png" alt="">
-             <a href="#"> DIGITAL COMICS </a>
+             <a href="#"> DC MERCHANDISE </a>
           </li>
 
           <li>
              <img src="/img/buy-comics-subscriptions.png" alt="">
-             <a href="#"> DIGITAL COMICS </a>
+             <a href="#"> SUBSCRIPTION </a>
           </li>
 
           <li>
              <img src="/img/buy-comics-shop-locator.png" alt="">
-             <a href="#"> DIGITAL COMICS </a>
+             <a href="#"> COMIC SHOP LOCATOR </a>
           </li>
 
           <li>
-            <img src="/img/buy-comics-shop-locator.png" alt="">
-            <a href="#"> DIGITAL COMICS </a>
+            <img src="/img/buy-dc-power-visa.svg" alt="">
+            <a href="#"> DC POWER VISA </a>
           </li>
 
         </ul>
@@ -58,7 +58,7 @@ li{
   display: flex;
   align-items: center;
   img{
-      height: 120px;
+      height: 70px;
   }
 }
 
