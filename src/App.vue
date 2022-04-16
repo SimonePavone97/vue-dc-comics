@@ -10,7 +10,7 @@
     </main>
 
     <HelloFoot/>
-    
+    <FootSocial/>
 
   </div>
 </template>
@@ -20,7 +20,7 @@ import NavComp from './components/NavComp.vue'
 import BarraNera from './components/BarraNera.vue'
 import DigitalComp from './components/DigitalComp.vue'
 import HelloFoot from './components/HelloFoot.vue'
-
+import FootSocial from './components/FootSocial.vue';
 
 
 
@@ -31,7 +31,8 @@ export default {
     NavComp,
     BarraNera,
     DigitalComp,
-    HelloFoot
+    HelloFoot,
+    FootSocial
   }
 }
 </script>

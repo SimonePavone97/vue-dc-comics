@@ -19,6 +19,7 @@ export default {
 .nero{
   background: black;
   padding: 20px 0;
+  text-align: center;
 }
 
 h1{
