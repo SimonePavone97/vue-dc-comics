@@ -122,7 +122,7 @@ footer{
     width: calc(100%/2);
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 

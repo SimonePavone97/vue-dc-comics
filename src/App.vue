@@ -1,59 +1,76 @@
 <template>
   <div id="app">
-    <header>
-      <NavComp/>
+    <header class="container">
+      <LogoComp />
+      <NavComp />
     </header>
 
     <main>
-      <BarraNera/>
-      <DigitalComp/>
+      <div class="content">
+        <div class="container">
+          <h1>Il contenuto va qui</h1>
+        </div>
+      </div>
+
+      <div class="icons">
+        <DigitalComp />
+      </div>
+
+
     </main>
 
-    <HelloFoot/>
-    <FootSocial/>
+    <HelloFoot />
+    <FootSocial />
 
   </div>
 </template>
 
-<script> 
-import NavComp from './components/NavComp.vue'
-import BarraNera from './components/BarraNera.vue'
-import DigitalComp from './components/DigitalComp.vue'
-import HelloFoot from './components/HelloFoot.vue'
-import FootSocial from './components/FootSocial.vue';
+<script>
+  import LogoComp from './components/LogoComp.vue'
+  import NavComp from './components/NavComp.vue'
+  import DigitalComp from './components/DigitalComp.vue'
+  import HelloFoot from './components/HelloFoot.vue'
+  import FootSocial from './components/FootSocial.vue'
 
 
-
-
-export default {
-  name: 'App',
-  components: {
-    NavComp,
-    BarraNera,
-    DigitalComp,
-    HelloFoot,
-    FootSocial
+  export default {
+    name: 'App',
+    components: {
+      LogoComp,
+      NavComp,
+      DigitalComp,
+      HelloFoot,
+      FootSocial
+    }
   }
-}
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
+  @import './style/global.scss';
+  @import './style/variabili.scss';
+  @import './style/reset.scss';
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-footer{
-  background: url('./assets/img/footer-bg.jpg');
-  background-size: cover;
-}
+  header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .content {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+  }
+
+  .icons {
+    background-color: $color-blu;
+    padding: 20px 0;
+  }
+
+  footer {
+    background: url('./assets/img/footer-bg.jpg');
+    background-size: cover;
+  }
 </style>
